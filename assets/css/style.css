@@ -14,8 +14,7 @@ body {
 
 /* Headings and logo */
 
-h1,
-h2 {
+h1, h2 {
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -60,7 +59,7 @@ h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Hero image and cover text*/
+/* Hero image and cover text */
 
 #hero-outer {
     height: 600px;
@@ -259,5 +258,40 @@ hr {
 
         #photos > img {
             width: 100%;
-            
+
         }
+
+                /* media queries */
+
+                /* for larger to medium screen size from 1200px wide and down */
+
+                @media screen and (max-width: 1200px) {
+                    #club-ethos {
+                        width: 65%;
+                        height: 1200px;
+                        margin: 0 auto;
+                    }
+
+                    #welcome {
+                        padding: 30px 0;
+                        margin: 0;
+                    }
+
+                    #left-about, #right-about {
+                        width: 100%;
+                        float: left;
+                        padding: 0;
+                    }
+
+                    #center-about {
+                        clear: both;
+                        width: 100%;
+                        float: left;
+                        padding: 0;
+                    }
+
+                    hr {
+                        display: none;
+                    }
+                    
+                }
