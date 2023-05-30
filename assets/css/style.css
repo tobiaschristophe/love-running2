@@ -290,12 +290,20 @@ hr {
                         padding: 0;
                     }
 
+                    #times > div {
+                        width: 100%;
+                        clear: both;
+                        height: 150px;
+                        padding: 0;
+                        
+                    }
+
                     hr {
                         display: none;
                     }
 }
 
-/* for larger to medium screen size from 1200px wide and down */
+/* for medium screen sizes from 950px wide and down */
 
 @media screen and (max-width:950px) {
     #menu {
